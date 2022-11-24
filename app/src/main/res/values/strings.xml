@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyViewAndViews</string>
+    <string name="content_text">Instax Mini Link 2 hadir sebagai pembaharu dari Instax Mini Link generasi pertama yang sukses diterima oleh konsumen pecinta film instant, karena hasil yang unik serta desain yang menarik.\n\nFitur yang dibawa pada Mini Link 2, salah satunya adalah fitur Instax AiR! dimana kamu bisa berkreasi dengan menggambar pada foto yang akan diambil cukup dengan mengarahkan lampu LED pada unit Mini Link 2 ini ke Smartphone kamu. Asyiknya setelahnya bisa dicetak dengan cukup cepat tanpa rempong, serta uniknya bisa juga menggambar pada foto yang sebelumnya ditangkap di aplikasi Instax Mini Link tersebut, daan bis dishare dengan fitur QR Code.\n\nFitur menarik lainnya, memiliki fungsi kontrol Zoom In-Out pada aplikasi Instax Mini Link cukup dengan menggerakkan unit Mini Link tersebut ke depan atau ke belakang, dan otomatis frame akan Zoom-In / Zoom-out secara digital sebelum mengambil gambar.</string>
+    <string name="content_specs_tipe">Instax Printer</string>
+    <string name="content_specs_kompa">Instax Film Mini</string>
+    <string name="content_specs_dimensi">90.3mm x 34.6mm x 124.5mm</string>
+    <string name="content_specs_berat">209gram exclude film pack</string>
+    <string name="content_specs_keleng">Unit Printer, MicroUSB Cable, Kartu garansi</string>
+    <string name="content_specs_brand">Instax</string>
+    <string name="stock">Stock hanya 5 buah</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="tipe">Tipe Produk</string>
+    <string name="kompa">Kompatibilitas</string>
+    <string name="dimensi">Dimensi Produk</string>
+    <string name="berat">Berat</string>
+    <string name="keleng">Kelengkapan</string>
+    <string name="brand">Brand</string>
+    <string name="seller">Dijual oleh</string>
+    <string name="my_name">Dian Rospita</string>
+    <string name="buy">Beli</string>
+    <string name="dummy_value">Rp1.949.000</string>
+    <string name="dummy_photos">6 photos</string>
+    <string name="sukses">Produk Telah Berhasil Dibeli</string>
+    <string name="customer_service">Customer Service  </string>
+</resources>

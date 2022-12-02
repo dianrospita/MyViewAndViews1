@@ -3,76 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:background="@android:color/white">
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="201dp"
-                android:adjustViewBounds="true"
-                android:contentDescription="TODO"
-                android:scaleType="fitCenter"
-                android:src="@drawable/pixel_gooogle" />
-
-            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="44dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/pixel_gooogle" />
+            <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_gravity="bottom"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
-                android:adjustViewBounds="true"
                 android:background="#4D000000"
                 android:drawablePadding="4dp"
                 android:gravity="center_vertical"
                 android:padding="8dp"
-                android:scaleType="fitCenter"
-                android:text="@string/dummy_photos"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@android:color/white" />
+                android:text="@string/dummy_photos" />
         </FrameLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="@string/dummy_value"
-            android:textSize="32sp" />
-
+            android:textSize="32sp"
+            android:justificationMode="inter_word"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="16dp"
-            android:text="@string/stock" />
-
+            android:text="@string/stock"
+            android:justificationMode="inter_word"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_text"
             android:justificationMode="inter_word"/>
-
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="8dp"
             android:text="@string/specification" />
 
@@ -81,7 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            >
 
             <TableRow
                 android:layout_width="match_parent"
@@ -89,6 +67,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -96,6 +75,7 @@
                     android:text="@string/tipe" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -109,6 +89,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -116,6 +97,7 @@
                     android:text="@string/kompa" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -129,6 +111,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -136,6 +119,7 @@
                     android:text="@string/dimensi" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -148,6 +132,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -155,6 +140,7 @@
                     android:text="@string/berat" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -168,6 +154,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -175,6 +162,7 @@
                     android:text="@string/keleng" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -188,6 +176,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
@@ -195,6 +184,7 @@
                     android:text="@string/brand" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -205,6 +195,7 @@
         </TableLayout>
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="12sp"
@@ -229,6 +220,7 @@
                 android:src="@drawable/photo_dian" />
 
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -252,6 +244,7 @@
             android:paddingBottom="32dp"
             android:paddingEnd="19dp">
             <TextView
+                style="@style/TextContent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/customer_service"
@@ -262,8 +255,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_cs"
                 android:background="@drawable/rounded_buttton"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:layout_marginLeft="8dp"
                 android:gravity="center"
                 app:icon="@drawable/ic_customer_service"
